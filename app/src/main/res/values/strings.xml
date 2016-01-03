@@ -1,0 +1,9 @@
+<resources>
+    <string name="title_activity_sample_app">AttRTC</string>
+    <string name="title_activity_sample_call">AttRTCCall</string>
+    <string name="app_name">EMA-IoT</string>
+	<string-array name="devices">
+        <item>Speaker</item>
+        <item>Headset</item>
+    </string-array>
+</resources>

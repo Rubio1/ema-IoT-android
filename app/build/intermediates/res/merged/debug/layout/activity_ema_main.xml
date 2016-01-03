@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".EmaMainActivity">
+
+
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:hint="User Id"
+        android:inputType="textEmailAddress"
+         />
+
+    <TextView
+        android:id="@+id/domain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/userId"
+        android:layout_below="@+id/userId"
+        android:text="\@attwebrtc.com"
+         />
+
+    <Button
+        android:id="@+id/login_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/domain"
+        android:layout_below="@+id/domain"
+        android:layout_marginTop="29dp"
+        android:onClick="login"
+        android:text="Login"
+         />
+
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/login_button"
+        android:layout_below="@+id/login_button"
+        android:layout_marginTop="44dp"
+        android:hint="Enter callee"
+        android:visibility="invisible"
+        android:layout_toStartOf="@+id/video_button" />
+
+    <Button
+        android:id="@+id/video_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/phone_number"
+        android:layout_marginEnd="24dp"
+        android:layout_toStartOf="@+id/audio_button"
+        android:onClick="dial"
+        android:text="Video"
+        android:visibility="invisible"
+         />
+
+    <Button
+        android:id="@+id/audio_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/video_button"
+        android:layout_alignParentEnd="true"
+        android:onClick="dial"
+        android:text="Audio"
+        android:visibility="invisible"
+         />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/phone_number"
+        android:layout_below="@+id/phone_number"
+        android:layout_marginTop="53dp"
+        android:onClick="logout"
+        android:text="Logout"
+        android:visibility="invisible"
+         />
+
+    <Button
+        android:id="@+id/answer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#04bf0d"
+        android:onClick="answerCall"
+        android:text="Answer"
+        android:layout_alignBaseline="@+id/reject_button"
+        android:layout_alignBottom="@+id/reject_button" />
+
+    <Button
+        android:id="@+id/reject_button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#f25555"
+        android:onClick="rejectCall"
+        android:text="Reject"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/audio_button" />
+
+
+</RelativeLayout>
+<!-- From: file:/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/src/main/res/layout/activity_ema_main.xml -->

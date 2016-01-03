@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/glview_call"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/sample_content_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:text="Dialing.."
+            android:id="@+id/dialling"
+            android:layout_gravity="left|top"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginTop="96dp"
+            android:textColor="#FFFFFF"
+            android:text="Caller"
+            android:id="@+id/calleeId"
+            android:layout_gravity="center_horizontal|top" />
+
+    </FrameLayout>
+
+</RelativeLayout>
+
+<!-- From: file:/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/src/main/res/layout/activity_rtc.xml -->

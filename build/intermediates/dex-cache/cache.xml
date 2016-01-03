@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/build/intermediates/pre-dexed/debug/classes-a3e21777ae6d4862fdd012de478776696368d257.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/pre-dexed/debug/gson-2.3.1-73f3ceff470d3b3ad3200eb46a114b660132a96a.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-e49e79d0be70beaa1ee3798b23a0eb46244ddf44.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/pre-dexed/debug/okio-1.6.0-beccd7b07eeb87321ce51c7aa9554ee3a2d0a638.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/build/intermediates/exploded-aar/app-sample/ewebrtc-sdk/unspecified/jars/libs/autobahn-0.5.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5f62bc6117f905fd37955f6e2ebd3aad68701b60">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/build/intermediates/pre-dexed/debug/autobahn-0.5.0-d798f8d07ffdbf79838b1cd0a10a328967e9368f.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/build/intermediates/pre-dexed/debug/classes-5aa6dd5f62ec2b04982728f6ad6829dda9b5b929.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/exploded-aar/app-sample/ewebrtc-sdk/unspecified/jars/libs/android-sip-stack.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="35e7208c99dec4edc329e24f908646b061565b05">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/pre-dexed/debug/android-sip-stack-eb9958a30ecd0c1f519e77180f08dbc332584621.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-c2673c247d19bb29af602205703e00e55ca9cdd1.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/pre-dexed/debug/classes-eb42a4e63a62a91cfb69495040305365708b5be0.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-92a9645f31ff340f4aed357650608dfb9b366bd3.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/exploded-aar/app-sample/ewebrtc-sdk/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2a9724c29a4160099fa728349d3f891508ad27a9">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/pre-dexed/debug/classes-c0adbf95be671253aa19dedaad9b3bd5c86987de.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-8da444280b5f30361c5d2d3d2839bf61102b79aa.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/build/intermediates/exploded-aar/app-sample/ewebrtc-sdk/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2a9724c29a4160099fa728349d3f891508ad27a9">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/build/intermediates/pre-dexed/debug/classes-7be07c0efa1ff7fc41650f8f72f05b3bcfbce56c.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-8f435b90c4cab08d26a88b6385dc89f94a8068c5.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/exploded-aar/app-sample/ewebrtc-sdk/unspecified/jars/libs/autobahn-0.5.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5f62bc6117f905fd37955f6e2ebd3aad68701b60">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/pre-dexed/debug/autobahn-0.5.0-bce3cd296e88ef1bd5047b9b254312e993e7ffa5.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/build/intermediates/exploded-aar/app-sample/ewebrtc-sdk/unspecified/jars/libs/android-sip-stack.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="35e7208c99dec4edc329e24f908646b061565b05">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/build/intermediates/pre-dexed/debug/android-sip-stack-66c1939d2b09b88edc902e0fe3a1ac846b28a30f.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-c5b05b902a9f40a040ab7c33f61b28efc4c0bca8.jar" />
+    </item>
+    <item
+        jar="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/joserubio/Documents/ATTHACK/app-sample/app/build/intermediates/pre-dexed/debug/classes-3fe1287ff08ca6c810358e42d47e39db2158271d.jar" />
+    </item>
+
+</items>

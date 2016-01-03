@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_buttons"
+    android:touchscreenBlocksFocus="false">
+
+    <ImageButton
+        android:id="@+id/button_call_disconnect"
+        android:elevation="6dp"
+        android:contentDescription="Disconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="onHangupButtonClick"
+        android:layout_marginBottom="35dp"
+        android:src="@drawable/end_call"
+        android:background="@drawable/round_button_red"
+        android:padding="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/linearLayout"
+        android:layout_marginBottom="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/button_call_disconnect">
+
+        <Space
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/call_mute"
+            android:src="@drawable/microphone_on"
+            android:background="@drawable/round_button"
+            android:elevation="6dp"
+            android:contentDescription="Disconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="muteButtonClicked"
+            android:padding="4dp"
+            android:focusable="true" />
+
+        <Space
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="6dp"
+            android:id="@+id/speaker_button"
+            android:src="@drawable/speaker_on"
+            android:onClick="speakerButtonClicked"
+            android:longClickable="false"
+            android:clickable="true"
+            android:padding="4dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/round_button"
+            android:cropToPadding="true" />
+
+        <Space
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+<!-- From: file:/Users/joserubio/Documents/ATTHACK/Ema-IoT-AndroidBack/app-sample/app/src/main/res/layout/overlay_rtc.xml -->
